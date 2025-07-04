@@ -1,0 +1,153 @@
+#navbar{
+    background-color:#4E1F00;
+}
+#Brand{
+    padding-left: 20px;
+    font-family: Lobster;
+    font-size: 30px;
+}
+#nav-item{
+    font-family: Besley;
+}
+.Home{
+    background-color: #f7eebe;
+    height: 300px;
+}
+#h1{
+   font-family: Besley;
+   font-size: 35px;
+}
+#pHome{
+    font-size: 25px;
+    font-family: Lobster;
+    color: rgb(65, 65, 65);
+}
+#button{
+    background-color: #74512D;
+    color: #F8F4E1;
+    border: 2px solid #FEBA17;
+}
+#button:hover{
+   box-shadow: 4px 4px 15px #4E1F00;
+}
+.aButton{
+    color:  #F8F4E1;
+    text-decoration: none;
+    font-family: Besley;
+}
+img{
+    height: 600px;
+}
+.Features{
+    background-color: #74512D;
+    height: 550px;
+}
+#h12{
+    font-family: Besley;
+   font-size: 30px;
+   color: #F8F4E1;
+   margin-bottom: 30px;
+}
+span{
+    font-size: 30px;
+    margin-right: 20px;
+}
+#FeaturesId{
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+   
+}
+
+#card-body{
+    background-color:  #f7eebe;
+    border-left: 6px solid  #FEBA17;
+    width: 350px;
+    height: 180px;
+
+}
+#card-body:hover{
+    box-shadow: 4px 4px 25px #FEBA17;
+}
+#FeaturesId1{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h4{
+    font-size: 25px;
+    font-family: Lobster;
+}
+#h13{
+    font-family: Besley;
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+.mission{
+    height: 300px;
+    background-color: #f7eebe;
+}
+.contact{
+    background-color: #74512D;
+    height: 360px;
+}
+#h14{
+ font-family: Besley;
+   font-size: 30px;
+   padding-top: 20px;
+   color: #F8F4E1;;
+}
+#button1{
+    background-color: #F8F4E1;
+    color:  #4E1F00;
+    border: 2px solid #FEBA17;
+}
+#button1:hover{
+   box-shadow: 4px 4px 15px #f0bb3f;
+   font-family: Besley;
+}
+footer{
+    background-color: #F8F4E1;
+    color: #4E1F00;
+    font-size: 20px;
+    font-family: Besley;
+}
+@media screen and (max-width:600px) {
+    #button{
+        margin-bottom: 50px;
+    }
+    .Home{
+        height: 400px;
+    }
+
+    #contact{
+        height: 400px;
+    }
+    #h1{
+        padding:0px 30px 0px 30px;
+    }
+    #pHome{
+        padding:0px 30px 0px 30px;
+    }
+    #h12{
+        padding:0px 30px 0px 30px;
+    }
+    #sm-Features{
+        background-color: #74512D;
+        height: 1500px;
+        
+        
+    }
+    #card-body{
+        width: 350px;
+        height: 200px;
+        margin-top: 15px;
+        
+    }
+    #mission{
+        height: 730px;
+    }
+    footer{
+        font-size: 18px;
+        height: 130px;
+    }
+}
